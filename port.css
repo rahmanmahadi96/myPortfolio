@@ -15,12 +15,32 @@ a{
     font-weight: 400;
     padding: 5px 10px;
 }
+.first{
+    margin-bottom: 50px;
+    margin-top: 30px;
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.second{
+    margin-top: 50px;
+    margin-bottom: 90px;
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
 section{
     display: flex;
 }
 .pp1{
     padding: 10px;
+    font-size: 20px;
     
+}
+.pp2{
+    padding: 15px;
+    margin-right: 90px;
+    font-size: 20px;
 }
 .container{
     width: 50%;
